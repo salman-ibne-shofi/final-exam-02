@@ -190,3 +190,50 @@ select {
 .row-03 {
     gap: 20px;
 }
+
+/* why choose us section */
+
+.why-choose-us-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-content p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.why-choose-us-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 80%;
+    margin: 50px auto;
+}
+.span-choose {
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+    text-align: left;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.span-01 {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+.span-02 {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+.span-03 {
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+}
