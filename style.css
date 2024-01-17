@@ -8,6 +8,10 @@
 
 /* banner section */
 
+.hidden-bars {
+    display: none;
+}
+
 .icon {
     display: flex;
     gap: 16px;
@@ -38,9 +42,8 @@
 }
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 400px;
     margin: 20px auto;
 }
 .li-01 {
@@ -334,4 +337,102 @@ select {
     background: rgba(19, 19, 24, 0.1);
     width: 872px;
     height: 1px;
+}
+
+/* responsive the site */
+/* responsive for small device/ mobile device */
+
+@media screen and (max-width: 600px) {
+    .bar ul {
+        display: none;
+    }
+    .hidden-bars {
+        display: block;
+    }
+
+    .icon p span {
+        font-size: 16px;
+    }
+    .icon p {
+        font-size: 16px;
+    }
+    .icon img {
+        max-height: 30px;
+    }
+    .icon {
+        gap: 5px;
+    }
+    .banner-button {
+        flex-direction: column;
+    }
+    .banner-content {
+        font-size: 13px;
+    }
+    .banner {
+        min-height: 500px;
+        background-size: cover;
+    }
+    .our-popular-tours {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .our-popular-tours img {
+        margin-top: 24px;
+    }
+    .button {
+        margin-top: 24px;
+    }
+    .opt-content {
+        min-width: 350px;
+        font-size: 14px;
+    }
+    .opt-content h1 {
+        font-size: 25px;
+    }
+    .choose-your-destination-content h1 {
+        font-size: 20px;
+    }
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+    .row div {
+        padding: 50px 0;
+        font-size: 16px;
+    }
+    .why-choose-us-content {
+        font-size: 25px;
+        margin: 40px auto;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter {
+        width: 220px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+    .container .discount {
+        width: 140px;
+        margin: -100px 10px 0 auto;
+        padding: 1px;
+    }
+    .footer-section {
+        font-size: 11px;
+        padding: 10px;
+        margin-top: 45px;
+    }
+    .footer-section hr {
+        width: 250px;
+    }
+    .copyright {
+        padding-top: 10px;
+    }
+}
+
+/* responsive for large device/ laptop or desktop */
+
+@media screen and (min-width: 992px) {
 }
