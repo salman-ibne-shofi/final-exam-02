@@ -45,6 +45,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
+    width: 80%;
 }
 .li-01 {
     color: #ff5400;
@@ -56,14 +57,16 @@ nav {
 .banner {
     background-image: url(B9A2-Hero-Travel-main/Images/banner.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    width: 100%;
+    width: 80%;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    border-radius: 12px;
 }
 .banner-button {
     margin-top: 60px;
@@ -222,7 +225,7 @@ select {
 }
 .span-choose {
     border-radius: 16px;
-    width: 573px;
+    width: 40%;
     height: 284px;
     text-align: left;
     padding-left: 32px;
@@ -244,15 +247,15 @@ select {
 /* newsletter section */
 
 .newsletter {
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    min-height: 400px;
     background: #fff;
     border: 1px solid #ff5400;
     border-radius: 10px;
     padding: 40px;
 }
 .newsletter hr {
-    width: 100%;
+    width: 75%;
     height: 1px;
     background: rgba(19, 19, 24, 0.1);
 }
@@ -279,40 +282,37 @@ select {
 .container {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 .container img {
     width: 100%;
     height: 100%;
 }
-.container .discount {
-    color: black;
-    font-size: 32px;
-    font-weight: 800;
+.container .image-div-newsletter {
+    width: 50%;
 }
 .container p {
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     font-weight: 400;
 }
 .container .discount {
+    font-size: 32px;
+    font-weight: 800;
     border-radius: 16px;
     background: #ff5400;
     transform: rotate(-19.628deg);
     width: 300px;
     padding: 16px 0;
-}
-
-.container .discount {
-    margin-left: auto;
-    margin-top: -180px;
-    margin-right: 10px;
-    margin: -190px 10px 0 auto;
+    margin: -29% 2% 0 auto;
 }
 
 .container .discount p {
     color: white;
+    text-align: center;
 }
 
 /* footer section */
@@ -411,12 +411,22 @@ select {
         font-size: 25px;
         margin: 40px auto;
     }
+    .span-choose {
+        width: 100%;
+    }
     .container {
         flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
     .newsletter {
-        width: 220px;
+        width: 80%;
+    }
+    .container .image-div-newsletter {
+        width: 100%;
+    }
+    .container img {
+        min-width: 345px;
     }
     .container p {
         font-size: 16px;
@@ -442,4 +452,6 @@ select {
 /* responsive for large device/ laptop or desktop */
 
 @media screen and (min-width: 992px) {
+
+
 }
