@@ -372,6 +372,13 @@ select {
         min-height: 500px;
         background-size: cover;
     }
+    .banner input {
+        width: 270px;
+    }
+    .banner select,
+    .banner option {
+        width: 273px;
+    }
     .our-popular-tours {
         flex-direction: column;
         margin: 0 auto;
